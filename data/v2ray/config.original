@@ -1,0 +1,31 @@
+{
+    "inbounds": [
+      {
+        "address":"127.0.0,1",
+        "port": 10000,
+        "protocol": "vmess",
+        "settings": {
+          "clients": [
+            {
+            "id": "abc123xyz",
+            "security": "aes-128-gcm",
+            "alterId": 64
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "ws",
+          "wsSettings": {
+          "path": "/ray"
+          }
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "freedom",
+        "settings": {}
+      }
+    ]
+  }
+  
