@@ -17,4 +17,4 @@ For example,
 ./prepare.sh example.org $(uuidgen)
 ```
 
-The script also writes the UUID provided to the file _uuid_, and generates a v2ray config file _v2raylocal.json_.
+The script also writes the UUID provided to the file _uuid_, and generates a v2ray config file _v2raylocal.json_, which opens a local port on 10802.
