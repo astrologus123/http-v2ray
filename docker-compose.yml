@@ -6,9 +6,11 @@ services:
       - "80:80"
     volumes:
       - ./data/nginx:/etc/nginx/conf.d
+    restart: always
     
   v2ray:
     image: v2ray/official
     volumes:
       - ./data/v2ray:/etc/v2ray
+    restart: always
     
